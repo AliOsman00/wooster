@@ -1,0 +1,92 @@
+#portfolio {
+	min-height: 1220px;
+	/*background-color: red;*/
+}
+.tx-portfolio {
+	font-size: 23px;
+	margin-top: 58px;
+}
+.portfo-tx {
+	text-align: center;
+	font-weight: 400;
+	margin-top: 5px;
+}
+.port-stick{
+	width: 170px;
+	height: 1px;
+	margin: 10px auto 10px;
+	background-color: #000;
+}
+.portfo-tx-p {
+	text-align: center;
+	margin-top: 55px;
+}
+.port-buttons {
+	color: #000;
+	margin-top: 60px;
+}
+.port-buttons li {
+	display: inline-block;
+	margin-right: 29px;
+	/*padding-left: 32px;*/
+}
+
+.port-buttons li button {
+	background-color: #b3b3b3;
+	height: 41px;
+	transition: .3s;
+}
+.port-buttons li button p {
+	padding-left: 13px;
+	padding-right: 13px;
+}
+.port-buttons li button:hover {
+	color: #fff;
+	background-color: #231f20;
+	transition: .3s;
+	border: none;
+}
+.portfolio-img {
+	margin-top: 65px;
+	text-align: center;
+}
+.rectangle-img {
+	width: 300px;
+	height: 300px;
+	background-color: #b3b3b3;
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+.more-btn-container {
+	margin-top: 135px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.more-btn {
+	width: 171px;
+	height: 51px;
+	background-color: #b3b3b3;
+	transition: .4s;
+	margin-bottom: 50px;
+}
+.more-btn:hover {
+	background-color: #231f20;
+	transition: .4s;
+	border: none;
+}
+
+@media only screen and (max-width: 450px) {
+    .port-buttons li button {
+		margin: 10px;
+		width: 150px;
+	}
+	.more-btn > button {
+		margin: 40px;
+	}
+	.port-buttons li {
+		margin-right: 0;
+	}
+  }

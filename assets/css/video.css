@@ -1,0 +1,18 @@
+#video {
+	min-height: 580px;
+	background-color: #000;
+	position: relative;
+}
+.tx-video {
+	color: #fff;
+	font-size: 23px;
+	margin-top: 228px;
+}
+
+.video-btn {
+	margin-top: 40px;
+}
+
+.video-btn:hover {
+	cursor: pointer;
+}

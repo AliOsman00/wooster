@@ -1,0 +1,104 @@
+/*Logo*/
+header {
+    padding-top: 13px;
+}
+header .logo{
+    font-family: 'latolight';
+    font-size: 30px;
+    font-weight: 300;
+}
+header .logo a {
+    text-decoration: none;
+    color: #000;
+}
+header .logo a span {
+    padding-left: 11px;
+}
+header .logo img {
+    vertical-align: middle;
+}
+header .logo a:hover,
+header .logo a:visited,
+header .logo a:focus {
+    text-decoration: none;
+    background-color: #b3b3b3;
+}
+/*Menu Sticks*/
+header .menu {
+    float: right;
+}
+header .menu:hover {
+    cursor: pointer;
+}
+header .menu-line {
+    width: 29px;
+    height: 3px;
+    background-color: #000;
+    margin: 6px 18px;
+}
+/*Some Text*/
+.some-text {
+    margin-top: 151px;
+}
+.text-stick {
+    width: 80px;
+    height: 1px;
+    background-color: #000;
+    margin: 48px auto;
+}
+.mission-text {
+    font-size: 45px;
+    line-height: 70px;
+    margin-top: 46px;
+}
+
+/*Header Button*/
+.header-btn {
+    margin-top: 50px;
+    padding-bottom: 245px;
+
+}
+.head-btn {
+    text-transform: none;
+    width: 232px;
+    height: 63px;
+    background-color: #b3b3b3;
+    border:3px solid black;
+    transition: .6s;
+    
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+.head-btn:hover {
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #231f20;
+    transition: .4s;
+}
+/*Download-shell*/
+.down-temp {
+    color:#fff;
+    letter-spacing: 1px;
+    float: right;
+    margin-top: 20px;
+}
+.down-btn {
+    width: 200px;
+    height: 55px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    transition: .3s;
+}
+.down-btn:hover {
+    background-color: #b3b3b3;
+    color: #fff;
+    transition: .4s;
+}
+
+@media only screen and (max-width: 450px) {
+    .down-btn {
+        margin-top: 15px;
+    }
+  }

@@ -1,0 +1,26 @@
+footer {
+	min-height: 300px;
+	background-color: black;
+}
+.logo-white {
+	text-align: center;
+	margin-top: 65px;
+}
+footer ul.social-icons {
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 15px;
+    /*margin-bottom: 135px;*/
+}
+
+footer ul.social-icons li {
+    display: inline-block;
+    margin: 0 14px;
+}
+.end {
+	margin-top: 36px;
+}
+.end-tx {
+
+	color: white;
+}

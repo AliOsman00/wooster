@@ -1,0 +1,41 @@
+#history {
+	min-height: 570px;
+}
+.tx-title-begining {
+	margin-top: 60px;
+	float: left;
+}
+h2.begining {
+	font-size: 23px;
+}
+.stars {
+    font-weight: 300;
+    padding-top: 12px;
+}
+.path {
+	width: 30px;
+	height: 1px;
+	border:none;
+	background-color: #000;
+	margin:20px 0 18px;
+}
+.see-portfolio {
+	width: 195px;
+	height: 51px;
+	background-color: #fff;
+	transition: .3s;
+	margin-top: 55px;
+    border:3px solid black;	
+}
+
+.see-portfolio:hover {
+	background-color: #231f20;
+	color: #fff;
+	transition: .4s;
+}
+
+@media only screen and (max-width: 450px) {
+    .see-portfolio {
+        margin-bottom: 20px;
+    }
+  }

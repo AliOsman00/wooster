@@ -1,0 +1,67 @@
+#contact-us {
+	min-height: 870px;
+}
+.contact-txt {
+	margin-top: 70px;
+	text-align: center;
+}
+.contact-title {
+	font-size: 23px;
+	margin-bottom: 10px;
+}
+
+.contact-txt > p {
+	margin-top: 60px;
+}
+.contact-icons {
+	text-align: center;
+	margin-top: 66px;
+}
+.contact-icons img + p {
+	margin-top: 10px;
+}
+.contact-inputs {
+	margin-top: 63px;
+	
+}
+.contact-input {
+	width: 560px;
+	height: 51px;
+	margin-top: 27px;
+	border: solid #777 1px;
+}
+.contact-message {
+	width: 562px;
+	height: 207px;
+	margin: 90px auto auto 10px;
+}
+.contact-btn {
+	max-width: 171px;
+	height: 51px;
+	float: right;
+	margin-top: 30px;
+	background-color: #000;
+	color: #fff;
+	transition: .3s
+}
+
+.contact-btn:hover {
+	background-color: #4D4C4C;
+	border: none;
+	transition: .4s;
+	text-transform: uppercase;
+}
+
+
+@media only screen and (max-width: 550px) {
+    .contact-input {
+		width: 350px;
+	}
+	.contact-message {
+		width: 350px;
+	}
+	.contact-btn {
+		width: 200px;
+		margin-bottom: 20px;
+	}
+  }

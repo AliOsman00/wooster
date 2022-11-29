@@ -1,0 +1,51 @@
+/*Text colors*/
+
+
+/*Background colors*/
+.main-color{
+    background-color: #b3b3b3;
+}
+.shell {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.tx-lato-beg {
+    font-family: 'latolight';
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: #777;
+}
+.content-donwload {
+    max-width: 100%;
+    min-height:160px;
+    background-color: #000;
+    text-align:center;
+    padding: 73px;
+}
+.clear:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.head-tx {
+    font-family: 'montserratregular';
+    font-weight: 400;
+    font-size: 13px;
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+}
+.abs_center {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+.nopadding {
+    padding: 0;
+    margin: 0;
+}
